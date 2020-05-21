@@ -1,5 +1,5 @@
 <h1  align="center">
-	<img    alt="Node" style=" width:200px" src="https://res.cloudinary.com/dpeywfgot/image/upload/v1590075702/Node.js_logo_vldaps.svg">
+	<img    alt="Node" style=" width:100px" src="https://res.cloudinary.com/dpeywfgot/image/upload/v1590075702/Node.js_logo_vldaps.svg">
 	<br/>
 	Gostack GoBarber
 </h1>
