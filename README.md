@@ -11,9 +11,25 @@
 
 ---
 
-# TODO de Atividades
+# ✍️ Configurações
 
-## Recuperação de Senha
+- Clone API
+
+```
+git clone https://github.com/iltonkp/gostack-gobarber-backend.git
+```
+
+- Instalando Dependências
+
+```
+yarn
+```
+
+---
+
+# Funcionalidades
+
+### Recuperação de Senha
 
 **Requisitos Funcionais**
 
@@ -32,7 +48,7 @@
 - [ ] O link enviado por e-mail para resetar senha, deve expirar em 2 horas;
 - [ ] O usuário precisa confirmar a nova senha ao resetar sua senha;
 
-## Atualização do Perfil
+### Atualização do Perfil
 
 **Requisitos Funcionais**
 
@@ -44,7 +60,7 @@
 - [ ] Para atualizar sua senha, o usuário deve informar a senha antiga;
 - [ ] Para atualizar sua senha, o usuário precisa confirmar a nova senha;
 
-## Painel do Prestador
+### Painel do Prestador
 
 **Requisitos Funcionais**
 
@@ -62,7 +78,7 @@
 
 - [ ] A notificação deve ter um status de lida e não-lida para que o prestador possa controlar;
 
-## Agendamento de Serviços
+### Agendamento de Serviços
 
 **Requisitos Funcionais**
 
