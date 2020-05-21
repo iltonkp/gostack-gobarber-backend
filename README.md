@@ -27,7 +27,7 @@ yarn
 
 ---
 
-# Funcionalidades
+# ⌨️ Funcionalidades
 
 ### Recuperação de Senha
 
