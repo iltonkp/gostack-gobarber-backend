@@ -17,9 +17,9 @@
 
 **Requisitos Funcionais**
 
-[ ] O usuário deve poder recuperar sua senha informando o seu e-mail;
-[ ] O usuário deve receber um e-mail com as instruções de recuperação de senha;
-[ ] O usuário deve poder resetar sua senha;
+-[ ] O usuário deve poder recuperar sua senha informando o seu e-mail;
+-[ ] O usuário deve receber um e-mail com as instruções de recuperação de senha;
+-[ ] O usuário deve poder resetar sua senha;
 
 ## Atualização do Perfil
 
