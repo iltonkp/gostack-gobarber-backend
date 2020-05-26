@@ -15,14 +15,26 @@
 
 - Clone API
 
-```
+```sh
 git clone https://github.com/iltonkp/gostack-gobarber-backend.git
 ```
 
 - Instalando Dependências
 
-```
+```sh
 yarn
+```
+
+- Configurando Banco de Dados
+
+```sh
+cp ormconfig.example.json ormconfig.json
+```
+
+- Executando Migrations
+
+```sh
+yarn typeorm migrations:run
 ```
 
 ---
