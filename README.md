@@ -62,12 +62,12 @@ yarn typeorm migrations:run
 **Requisitos Funcionais**
 
 - [x] O usuário deve poder recuperar sua senha informando o seu e-mail;
-- [ ] O usuário deve receber um e-mail com as instruções de recuperação de senha;
-- [ ] O usuário deve poder resetar sua senha;
+- [x] O usuário deve receber um e-mail com as instruções de recuperação de senha;
+- [x] O usuário deve poder resetar sua senha;
 
 **Requisitos Não Funcionais**
 
-- [ ] Utilizar Mailtrap para testar envios de e-mails em ambiente de dev;
+- [x] Utilizar Ethereal para testar envios de e-mails em ambiente de dev;
 - [ ] Utilizar Amazon SES para envios de e-mails em ambiente de Produção;
 - [ ] O envio de e-mails deve acontecer em segundo plano (background job);
 
