@@ -84,9 +84,9 @@ yarn typeorm migrations:run
 
 **Regras de Negócio**
 
-- [ ] O usuário não pode alterar seu e-mail para um e-mail já utilizado;
-- [ ] Para atualizar sua senha, o usuário deve informar a senha antiga;
-- [ ] Para atualizar sua senha, o usuário precisa confirmar a nova senha;
+- [x] O usuário não pode alterar seu e-mail para um e-mail já utilizado;
+- [x] Para atualizar sua senha, o usuário deve informar a senha antiga;
+- [x] Para atualizar sua senha, o usuário precisa confirmar a nova senha;
 
 ### Painel do Prestador
 
