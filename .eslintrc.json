@@ -6,9 +6,9 @@
   },
   "extends": [
     "airbnb-base",
-    "plugin:@typescript-eslint/recomended",
+    "plugin:@typescript-eslint/eslint-recommended",
     "prettier/@typescript-eslint",
-    "plugin:prettier/recomended"
+    "plugin:prettier/recommended"
   ],
   "globals": {
     "Atomics": "readonly",
@@ -25,6 +25,7 @@
     "class-methods-use-this": "off",
     "@typescript-eslint/camelcase": "off",
     "no-useless-constructor": "off",
+    "no-empty-function": "off",
     "@typescript-eslint/no-unused-vars": [
       "error",
       { "argsIgnorePattern": "_" }

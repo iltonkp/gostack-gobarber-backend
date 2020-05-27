@@ -2,11 +2,9 @@ import { injectable, inject } from 'tsyringe';
 import path from 'path';
 
 import AppError from '@shared/errors/AppError';
+import IMailProvider from '@shared/container/providers/MailProvider/models/IMailProvider';
 import IUsersRepository from '../repositories/IUsersRepository';
 import IUserTokenRepository from '../repositories/IUserTokenRepository';
-import IMailProvider from '@shared/container/providers/MailProvider/models/IMailProvider';
-
-import User from '@modules/users/infra/typeorm/entities/User';
 
 interface IRequest {
   email: string;
