@@ -80,7 +80,7 @@ yarn typeorm migrations:run
 
 **Requisitos Funcionais**
 
-- [ ] O usuário deve poder atualizar seu nome, e-mail e senha;
+- [x] O usuário deve poder atualizar seu nome, e-mail e senha;
 
 **Regras de Negócio**
 
