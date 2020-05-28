@@ -53,6 +53,12 @@ cp ormconfig.example.json ormconfig.json
 yarn typeorm migrations:run
 ```
 
+- Executando Testes
+
+```sh
+yarn test
+```
+
 ---
 
 # ⌨️ Funcionalidades
@@ -111,7 +117,7 @@ yarn typeorm migrations:run
 **Requisitos Funcionais**
 
 - [x] O usuário deve poder listar todos os prestadores de serviço cadastrado;
-- [ ] O usuário deve poder listar os dias de um mês com pelo menos um horário disponível para o prestador de serviços selecionado;
+- [x] O usuário deve poder listar os dias de um mês com pelo menos um horário disponível para o prestador de serviços selecionado;
 - [ ] O usuário deve poder listar horários disponíveis em um dia específico para o prestador de serviçoes selecionado;
 - [ ] O usuário deve poder realizar um novo agendamento com um prestador de serviços;
 
@@ -122,7 +128,7 @@ yarn typeorm migrations:run
 **Regras de Negócio**
 
 - [ ] Cada agendamento deve durar 1 hora exatamente;
-- [ ] Os agendamentos devem estar disponíveis ente 8h as 18h (primeiro as 8h, último as 17h);
+- [x] Os agendamentos devem estar disponíveis ente 8h as 18h (primeiro as 8h, último as 17h);
 - [ ] O usuário não pode agendar um horário já ocupado;
 - [ ] O usuário não pode agendar um horário que já passou;
 - [x] O usuário não pode agendar um serviço consigo mesmo;
