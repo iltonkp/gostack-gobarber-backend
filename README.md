@@ -139,6 +139,6 @@ yarn test
 
 - [x] Cada agendamento deve durar 1 hora exatamente;
 - [x] Os agendamentos devem estar disponíveis ente 8h as 18h (primeiro as 8h, último as 17h);
-- [ ] O usuário não pode agendar um horário já ocupado;
-- [ ] O usuário não pode agendar um horário que já passou;
+- [x] O usuário não pode agendar um horário já ocupado;
+- [x] O usuário não pode agendar um horário que já passou;
 - [x] O usuário não pode agendar um serviço consigo mesmo;
