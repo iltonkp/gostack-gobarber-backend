@@ -3,15 +3,25 @@
 	<br/>
 	Gostack GoBarber - Back-End - API
 </h1>
-<p style="display:flex;  align-itens:center; justify-content:space-around; max-height:25px " align="center">
-	<img    alt="Node" src="https://img.shields.io/badge/Node-12.16.3-green">
-	<img alt="TypeScript" src="https://img.shields.io/badge/Yarn-1.22.4-blue">
+<p  align="center">
+	<img alt="Node" src="https://img.shields.io/badge/Node-12.16.3-green">
+	<img alt="Yarn" src="https://img.shields.io/badge/Yarn-1.22.4-blue">
 	<img alt="TypeScript" src="https://img.shields.io/badge/TypeScript-3.8.3-blue">
+</p>
+
+<p  align="center">
+	<img alt="GitHub top language" src="https://img.shields.io/github/languages/top/iltonkp/gostack-gobarber-backend.svg">
+	<img alt="GitHub language count" src="https://img.shields.io/github/languages/count/iltonkp/gostack-gobarber-backend.svg">
+	<img alt="Repository size" src="https://img.shields.io/github/repo-size/iltonkp/gostack-gobarber-backend.svg">
 </p>
 
 ---
 
-# ✍️ Configurações
+# 💻 Tecnologias
+
+- [Node.js](https://nodejs.org/)
+
+# ✍️ Como Utilizar
 
 - Clone API
 
