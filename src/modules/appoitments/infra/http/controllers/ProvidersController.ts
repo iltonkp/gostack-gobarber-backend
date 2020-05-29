@@ -14,6 +14,7 @@ export default class ProvidersController {
 
     const providers = ListProviders.map(provider => {
       delete provider.password;
+
       return provider;
     });
 

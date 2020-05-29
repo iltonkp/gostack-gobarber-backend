@@ -129,7 +129,7 @@ yarn test
 - [x] O usuário deve poder listar todos os prestadores de serviço cadastrado;
 - [x] O usuário deve poder listar os dias de um mês com pelo menos um horário disponível para o prestador de serviços selecionado;
 - [x] O usuário deve poder listar horários disponíveis em um dia específico para o prestador de serviçoes selecionado;
-- [ ] O usuário deve poder realizar um novo agendamento com um prestador de serviços;
+- [x] O usuário deve poder realizar um novo agendamento com um prestador de serviços;
 
 **Requisitos Não Funcionais**
 
