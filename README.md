@@ -108,7 +108,7 @@ yarn test
 
 **Requisitos Funcionais**
 
-- [ ] O usuário deve poder listar seus agendamentos de um dia específico;
+- [x] O usuário deve poder listar seus agendamentos de um dia específico;
 - [ ] O prestador deve receber uma notificação sempre que houver um novo agendamento;
 - [ ] O prestador deve poder visualizar as notificações não lidas;
 
