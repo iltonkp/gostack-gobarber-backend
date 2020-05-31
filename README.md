@@ -24,6 +24,7 @@
 - [Celebrate](https://github.com/arb/celebrate)
 - [Handlebars](https://handlebarsjs.com/)
 - [Jsonwebtoken](https://www.npmjs.com/package/jsonwebtoken)
+- [Class-Transformer](https://github.com/typestack/class-transformer)
 - [MongoDB](https://www.mongodb.com/)
 - [Multer](https://github.com/expressjs/multer)
 - [Nodemailer](https://nodemailer.com/about/)
@@ -53,6 +54,7 @@ cp .env.example .env
 
 ```
 APP_SECRET=
+APP_API_URL=http://localhost:3333
 APP_WEB_URL=http://localhost:3000
 
 ```
