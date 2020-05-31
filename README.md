@@ -21,6 +21,7 @@
 
 - [Node.js](https://nodejs.org/)
 - [TypeScript](https://www.typescriptlang.org/)
+- [Celebrate](https://github.com/arb/celebrate)
 - [Handlebars](https://handlebarsjs.com/)
 - [Jsonwebtoken](https://www.npmjs.com/package/jsonwebtoken)
 - [MongoDB](https://www.mongodb.com/)
