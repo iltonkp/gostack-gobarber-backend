@@ -132,7 +132,7 @@ yarn dev:server
 **Regras de Negócio**
 
 - [x] O link enviado por e-mail para resetar senha, deve expirar em 2 horas;
-- [ ] O usuário precisa confirmar a nova senha ao resetar sua senha;
+- [x] O usuário precisa confirmar a nova senha ao resetar sua senha;
 
 ### Atualização do Perfil
 
