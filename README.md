@@ -20,6 +20,15 @@
 # 💻 Tecnologias
 
 - [Node.js](https://nodejs.org/)
+- [TypeScript](https://www.typescriptlang.org/)
+- [Handlebars](https://handlebarsjs.com/)
+- [Jsonwebtoken](https://www.npmjs.com/package/jsonwebtoken)
+- [MongoDB](https://www.mongodb.com/)
+- [Multer](https://github.com/expressjs/multer)
+- [Nodemailer](https://nodemailer.com/about/)
+- [tsyringe](https://github.com/microsoft/tsyringe)
+- [typeorm](https://typeorm.io/#/)
+- [postgres](https://www.postgresql.org/)
 
 # ✍️ Como Utilizar
 
