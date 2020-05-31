@@ -45,6 +45,18 @@ git clone https://github.com/iltonkp/gostack-gobarber-backend.git
 yarn
 ```
 
+- Configurando .env
+
+```sh
+cp .env.example .env
+```
+
+```
+APP_SECRET=
+APP_WEB_URL=http://localhost:3000
+
+```
+
 - Configurando Banco de Dados
 
 ```sh
