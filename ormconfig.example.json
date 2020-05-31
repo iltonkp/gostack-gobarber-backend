@@ -14,7 +14,7 @@
     }
   },
   {
-    "name": "mongodb Atlas",
+    "name": "mongo",
     "type": "mongodb",
     "url": "<url connection mongodb Atlas>",
     "useNewUrlParser": true,

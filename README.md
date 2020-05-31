@@ -42,19 +42,33 @@ cp ormconfig.example.json ormconfig.json
 ```
 
 ```
-{
-  "type": "postgres",
-  "host": "localhost",
-  "port": 5432,
-  "username": "",
-  "password": "",
-  "database": "gostack_gobarber",
-  "entities": ["./src/modules/**/infra/typeorm/entities/*.ts"],
-  "migrations": ["./src/shared/infra/typeorm/migrations/*.ts"],
-  "cli": {
-    "migrationsDir": "./src/shared/infra/typeorm/migrations"
+[
+  {
+    "name": "default",
+    "type": "postgres",
+    "host": "localhost",
+    "port": 5432,
+    "username": "",
+    "password": "",
+    "database": "gostack_gobarber",
+    "entities": ["./src/modules/**/infra/typeorm/entities/*.ts"],
+    "migrations": ["./src/shared/infra/typeorm/migrations/*.ts"],
+    "cli": {
+      "migrationsDir": "./src/shared/infra/typeorm/migrations"
+    }
+  },
+  {
+    "name": "mongo",
+    "type": "mongodb",
+    "url": "<url connection mongodb Atlas>",
+    "useNewUrlParser": true,
+    "synchronize": true,
+    "database": "gobarber",
+    "useUnifiedTopology": true,
+    "entities": ["./src/modules/**/infra/typeorm/schemas/*.ts"]
   }
-}
+]
+
 ```
 
 - Executando Migrations
@@ -67,6 +81,12 @@ yarn typeorm migrations:run
 
 ```sh
 yarn test
+```
+
+- Iniciando o Servidor
+
+```sh
+yarn dev:server
 ```
 
 ---
@@ -109,13 +129,13 @@ yarn test
 **Requisitos Funcionais**
 
 - [x] O usuário deve poder listar seus agendamentos de um dia específico;
-- [ ] O prestador deve receber uma notificação sempre que houver um novo agendamento;
+- [x] O prestador deve receber uma notificação sempre que houver um novo agendamento;
 - [ ] O prestador deve poder visualizar as notificações não lidas;
 
 **Requisitos Não Funcionais**
 
 - [ ] Os agendamentos do prestador no dia devem ser armazenados em cache;
-- [ ] As notificações do prestador devem ser armazenadas no MongoDB;
+- [x] As notificações do prestador devem ser armazenadas no MongoDB;
 - [ ] As notificações do prestador devem ser enviadas em tempo-real utilizando Socket.io;
 
 **Regras de Negócio**
