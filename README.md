@@ -132,7 +132,7 @@ yarn dev:server
 **Requisitos Não Funcionais**
 
 - [x] Utilizar Ethereal para testar envios de e-mails em ambiente de dev;
-- [ ] Utilizar Amazon SES para envios de e-mails em ambiente de Produção;
+- [x] Utilizar Amazon SES para envios de e-mails em ambiente de Produção;
 - [ ] O envio de e-mails deve acontecer em segundo plano (background job);
 
 **Regras de Negócio**
