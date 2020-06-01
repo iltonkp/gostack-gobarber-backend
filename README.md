@@ -21,6 +21,7 @@
 
 - [Node.js](https://nodejs.org/)
 - [TypeScript](https://www.typescriptlang.org/)
+- [Eslint](https://eslint.org/)
 - [Celebrate](https://github.com/arb/celebrate)
 - [Handlebars](https://handlebarsjs.com/)
 - [Jsonwebtoken](https://www.npmjs.com/package/jsonwebtoken)
@@ -29,6 +30,8 @@
 - [Multer](https://github.com/expressjs/multer)
 - [Nodemailer](https://nodemailer.com/about/)
 - [tsyringe](https://github.com/microsoft/tsyringe)
+- [Mime](https://github.com/broofa/mime)
+- [aws-sdk](https://aws.amazon.com/pt/sdk-for-node-js/)
 - [typeorm](https://typeorm.io/#/)
 - [postgres](https://www.postgresql.org/)
 
@@ -53,14 +56,23 @@ cp .env.example .env
 ```
 
 ```
+#Application
 APP_SECRET=
 APP_API_URL=http://localhost:3333
 APP_WEB_URL=http://localhost:3000
 
+#Mail
+#Options: ethereal | ses
 MAIL_DRIVER=ethereal
 
+#AWS Credencials
 AWS_ACCESS_KEY_ID=
 AWS_SECRET_ACCESS_KEY=
+
+#Storage
+#Options: disk | s3
+STORAGE_DRIVER=disk
+
 ```
 
 - Configurando Banco de Dados
