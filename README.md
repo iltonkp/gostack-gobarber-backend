@@ -174,7 +174,7 @@ yarn dev:server
 
 - [x] O usuário deve poder listar seus agendamentos de um dia específico;
 - [x] O prestador deve receber uma notificação sempre que houver um novo agendamento;
-- [ ] O prestador deve poder visualizar as notificações não lidas;
+- [x] O prestador deve poder visualizar as notificações não lidas;
 
 **Requisitos Não Funcionais**
 
@@ -184,7 +184,7 @@ yarn dev:server
 
 **Regras de Negócio**
 
-- [ ] A notificação deve ter um status de lida e não-lida para que o prestador possa controlar;
+- [x] A notificação deve ter um status de lida e não-lida para que o prestador possa controlar;
 
 ### Agendamento de Serviços
 
