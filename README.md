@@ -36,6 +36,7 @@
 - [uuidv4](https://www.npmjs.com/package/uuidv4)
 - [date-fns](https://date-fns.org/v1.30.1/docs/format)
 - [dotenv](https://www.npmjs.com/package/dotenv)
+- [rate-limiter-flexible](https://github.com/animir/node-rate-limiter-flexible)
 - [typeorm](https://typeorm.io/#/)
 - [postgres](https://www.postgresql.org/)
 
@@ -77,6 +78,10 @@ AWS_SECRET_ACCESS_KEY=
 #Options: disk | s3
 STORAGE_DRIVER=disk
 
+#Redis
+REDIS_HOST=localhost
+REDIS_PORT=6379
+REDIS_PASSWORD=
 ```
 
 - Configurando Banco de Dados
