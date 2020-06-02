@@ -145,7 +145,7 @@ yarn dev:server
 
 - [x] Utilizar Ethereal para testar envios de e-mails em ambiente de dev;
 - [x] Utilizar Amazon SES para envios de e-mails em ambiente de Produção;
-- [ ] O envio de e-mails deve acontecer em segundo plano (background job);
+- [x] O envio de e-mails deve acontecer em segundo plano (background job);
 
 **Regras de Negócio**
 
@@ -193,7 +193,7 @@ yarn dev:server
 
 **Requisitos Não Funcionais**
 
-- [ ] A listagem de prestadores deve ser armazenada em cache;
+- [x] A listagem de prestadores deve ser armazenada em cache;
 
 **Regras de Negócio**
 
