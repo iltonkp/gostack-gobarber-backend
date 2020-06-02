@@ -32,6 +32,10 @@
 - [tsyringe](https://github.com/microsoft/tsyringe)
 - [Mime](https://github.com/broofa/mime)
 - [aws-sdk](https://aws.amazon.com/pt/sdk-for-node-js/)
+- [ioredis](https://github.com/luin/ioredis)
+- [uuidv4](https://www.npmjs.com/package/uuidv4)
+- [date-fns](https://date-fns.org/v1.30.1/docs/format)
+- [dotenv](https://www.npmjs.com/package/dotenv)
 - [typeorm](https://typeorm.io/#/)
 - [postgres](https://www.postgresql.org/)
 
@@ -174,7 +178,7 @@ yarn dev:server
 
 **Requisitos Não Funcionais**
 
-- [ ] Os agendamentos do prestador no dia devem ser armazenados em cache;
+- [x] Os agendamentos do prestador no dia devem ser armazenados em cache;
 - [x] As notificações do prestador devem ser armazenadas no MongoDB;
 - [ ] As notificações do prestador devem ser enviadas em tempo-real utilizando Socket.io;
 
